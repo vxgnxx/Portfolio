@@ -1,0 +1,24 @@
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao__conteudo {
+    text-align: justify;
+    font-size: 1rem;
+    width: 400px;
+    text-shadow: 3px 3px 15px #344966;
+}
+
+.descricao__conteudo h3 {
+    font-size: 1.25rem;
+    text-decoration: underline #bfcc94;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 15px #344966;
+}
+
+.descricao__conteudo p {
+    font-size: 1rem;
+    text-shadow: 3px 3px 15px #344966;
+}

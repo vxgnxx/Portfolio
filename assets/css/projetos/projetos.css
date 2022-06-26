@@ -1,0 +1,134 @@
+.projetos{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projetos__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline #344966;
+    font-weight: 700;
+}
+
+.projetos__slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 2px solid #B4CDED;
+    box-shadow: 3px 3px 10px #344966;
+}
+
+.projetos__slides {
+    width: 400%;
+    height: 450px;
+    display: flex;
+}
+
+.projetos__slides input{
+    display: none;
+}
+
+.projetos__slide {
+    width: 25%;
+    position: relative;
+    transition: 2.5s;
+}
+
+.projetos__slide img {
+    width: 800px;
+}
+
+.projetos__manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.projetos__manual label {
+    border: 1.5px solid #B4CDED;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.projetos__manual label:not(:last-child) {
+    margin-right: 40px;
+}
+
+.projetos__manual label:hover {
+    background-color: #B4CDED;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+.navegacao div{
+    border: 1.5px solid #BFCC94;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.navegacao {
+    position: absolute;
+    width: 800px;
+    margin-top: 410px;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navegacao .navegacao__botao--1{
+    background-color: #B4CDED;
+}
+
+#radio2:checked ~ .navegacao .navegacao__botao--2{
+    background-color: #B4CDED;
+}
+
+#radio3:checked ~ .navegacao .navegacao__botao--3{
+    background-color: #B4CDED;
+}
+
+.projetos__button {
+    width: 25%;
+    height: 2rem;
+    background: #BFCC94;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.projetos__button:hover{
+    background-color: rgba(191, 204, 148, 0.8)
+}
+
+.projetos__button a {
+    text-decoration: none;
+    color: #0D1821;
+}

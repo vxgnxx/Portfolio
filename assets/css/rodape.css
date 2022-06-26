@@ -1,0 +1,29 @@
+.rodape {
+    padding: 2.5px;
+    height: auto;
+    color: #B4CDED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #344966;
+}
+
+.rodape__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__texto {
+    font-size: .75rem;
+    padding: 2.5px;
+}
+
+.rodape__links {
+    display: flex;
+}
+
+.rodape__img {
+    padding: 2.5px;
+    width: 25px;
+    border-radius: 25%;
+}

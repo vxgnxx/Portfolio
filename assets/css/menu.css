@@ -1,0 +1,16 @@
+.menu__lista {
+    display: flex;
+}
+
+.menu__item, .menu__link {
+    font-family: Montserrat, sans-serif;
+    color: #F0F4EF;
+    margin: 0.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+    text-shadow: 3px 3px 15px #344966;
+}
+
+.menu__link:hover {
+    color: #B4CDED;
+}

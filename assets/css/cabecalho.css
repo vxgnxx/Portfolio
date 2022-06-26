@@ -1,0 +1,36 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.cabecalho__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #F0F4EF;
+}
+
+.cabecalho__button {
+    padding: 5px 20px;
+    background-color: #bfcc94;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cabecalho__button:hover{
+    background-color: rgba(191, 204, 148, 0.8)
+}
+
+.cabecalho__link {
+    display: flex;
+}
+
+.cabecalho__icon {
+    width: 20px;
+}
+
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vxgnxx | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/inicio/inicio.css">
+    <link rel="stylesheet" href="assets/css/inicio/destaque.css">
+    <link rel="stylesheet" href="assets/css/inicio/card-container.css">
+    <link rel="stylesheet" href="assets/css/habilidades/skills.css">
+    <link rel="stylesheet" href="assets/css/habilidades/habilidades.css">
+    <link rel="stylesheet" href="assets/css/descricao/descricao.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Vxgnxx</h1>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link" href="#">Início</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Habilidades</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Projetos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Sobre</a></li>
+            </ul>
+        </nav>
+        <button class="cabecalho__button"><a class="cabecalho__link" href="https://www.linkedin.com/in/vxgnxx/" target="_blank"><img class="cabecalho__icon" src="assets/img/linkedin.svg" alt="Linkedin"></a></button>
+    </header>
+    <main>
+        <section class="inicio">
+            <div class="destaque">
+                <div class="destaque__corpo">
+                    <h2 class="destaque__titulo">Olá, eu sou Wagner</h2>
+                    <p class="destaque__conteudo">Desenvolvedor front-end e estudante de ciência da computação</p>
+                </div>
+                <img class="destaque__img" src="https://picsum.photos/400/533" alt="">
+            </div>
+        </section>
+        <section class="skills">
+            <h2 class="habilidades__titulo">Habilidades</h2>
+            <div class="skills__container">
+                <div class="habilidades">
+                    <ul class="habilidades__lista">
+                        <li class="habilidades__item"><button class="habilidades__button"><img class="habilidades__icone" src="assets/img/html5.svg" alt=""></button></li>
+                        <li class="habilidades__item"><button class="habilidades__button"><img class="habilidades__icone" src="assets/img/css3.svg" alt=""></button></li>
+                        <li class="habilidades__item"><button class="habilidades__button"><img class="habilidades__icone" src="assets/img/javascript.svg" alt=""></button></li>
+                        <li class="habilidades__item"><button class="habilidades__button"><img class="habilidades__icone" src="assets/img/git.svg" alt=""></button></li>
+                        <li class="habilidades__item"><button class="habilidades__button"><img class="habilidades__icone" src="assets/img/github.svg" alt=""></button></li>
+                        <li class="habilidades__item"><button class="habilidades__button"><img class="habilidades__icone" src="assets/img/visualstudiocode.svg" alt=""></button></li>
+                    </ul>
+                </div>
+                <div class="descricao">
+                    <p class="descricao__conteudo">Passe o mouse em cima de uma habilidade para saber mais</p>
+                </div>
+            </div>
+        </section>
+        <section class="projetos">
+            <h2 class="projetos__titulo">Projetos</h2>
+            <div class="projetos__slider">
+                <div class="projetos__slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!------------------------------>
+                    <div class="projetos__slide first">
+                        <img src="assets/img/em-breve.png" alt="">
+                    </div>
+                    <div class="projetos__slide">
+                        <img src="assets/img/em-breve.png" alt="">
+                    </div>
+                    <div class="projetos__slide">
+                        <img src="assets/img/em-breve.png" alt="">
+                    </div>
+                    <!------------------------------>
+                    <div class="navegacao">
+                        <div class="navegacao__botao--1"></div>
+                        <div class="navegacao__botao--2"></div>
+                        <div class="navegacao__botao--3"></div>
+                    </div>
+                </div>
+                <div class="projetos__manual">
+                    <label for="radio1" ></label>
+                    <label for="radio2"></label>
+                    <label for="radio3"></label>
+                </div>
+            </div>
+            <button class="projetos__button"><a href="https://github.com/vxgnxx" target="_blank">Veja mais no Github</a></button> 
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Sobre mim</h2>
+            <div class="sobre__container">
+                <p class="sobre__texto"><strong>Lorem</strong> ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime enim perferendis corporis aperiam perspiciatis eligendi neque deleniti ullam consequuntur voluptates cumque iure modi inventore nostrum, ea numquam voluptas! Consequatur.</p>
+                <img class="sobre__img" src="https://picsum.photos/400" alt="">
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <p class="rodape__texto">Feito por Felipe Wagner</p>
+            <p class="rodape__texto">Email para contato: fws.buss@gmail.com</p>
+        </div>
+        <div class="rodape__links">
+            <a href="#"><img class="rodape__img" src="assets/img/linkedin.svg" alt="github"></a>
+            <a href="#"><img class="rodape__img" src="assets/img/github.svg" alt="linkedin"></a>
+            <a href="#"><img class="rodape__img" src="assets/img/linktree.svg" alt="linktree"></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
+</section>
+

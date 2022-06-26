@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    padding: 0px 0px;
+    background: #0D1821;
+    font-family: Montserrat, sans-serif;
+    color: #F0F4EF;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 7.5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #344966; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #BFCC94; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(191, 204, 148, 0.8)
+}
+
+/* Titulos */
+
+
+
+/* 
+Deep Blue  - #0D1821
+Blue       - #344966
+Light Blue - #B4CDED
+Off White  - #F0F4EF
+Lime       - #BFCC94
+*/
